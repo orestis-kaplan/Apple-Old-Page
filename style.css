@@ -1,0 +1,31 @@
+/* width: 1000px;
+    height: 100px;
+    background: linear-gradient( #838383 50%,#606060 50%,#838383 79%),url(something.png),no-repeat 50% 50%; */
+html,body{
+  margin: 0;
+}
+.header-container{
+  background: url(https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero_2x.jpg) 41% 158%;
+  width: 1440px;
+  margin: 0 auto;
+  min-height: 830px;
+  position: relative;
+  background-size: 1500px 1315px;
+  background-repeat: no-repeat;
+  }
+.header-container a{
+  width: fit-content;
+}
+.thumbnails{
+  width: 1440px;
+  display: flex;
+  margin: 0 auto;
+}
+footer{
+  display: flex;
+  width: 980px;
+  margin: 0 auto;
+}
+.footer-links ul {
+  display:flex ;
+}
