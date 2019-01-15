@@ -134,16 +134,37 @@ and (max-device-width : 480px) {
   text-decoration: underline;
 }
 /* Thumbnails section */
+
 .thumbnails{
   width: 1440px;
   display: flex;
-  margin: 0 auto;
+  margin: 3px auto 0 auto;
 }
 footer{
-  display: flex;
+  font-size: 12px;
   width: 980px;
   margin: 0 auto;
 }
-.footer-links ul {
-  display:flex ;
+
+.contact p{
+  float: left;
+}
+
+.contact ul{
+  float: right;
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.contact ul li{
+  padding-left: 10px;
+}
+
+.contact ul li a{
+  text-decoration: none;
+}
+
+.legal{
+  clear: right;
 }
