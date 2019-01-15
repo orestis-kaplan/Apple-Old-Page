@@ -44,6 +44,7 @@ html,body{
   margin: 3px auto;
   width: 100%;
 }
+
 .nav-bar a:hover{
   background: url(img/hover_first.png) repeat-x 0 0,url(img/hover_second.png) repeat-y 100% 0,url(img/hover_third.png) repeat-y 0 0 ,rgba(0, 0, 0, .4);
 }
@@ -81,11 +82,29 @@ html,body{
   padding: 1px 6px;
 }
 .search-box input{
+  background-color: transparent;
+  box-shadow: #838383 0 1px 0, #606060 0 -1px 0;
+  border: 1px;
+  color: white;
   width: 106px;
-  margin-top: 5px;
+  margin-top: 7px;
   border-radius: 12px;
   height: 19px;
+  padding-left: 22px;
+  outline: none;
 }
+
+.search-icon{
+  background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAOCAQAAABedl5ZAAAAzklEQVQYlWNgAIP%2F9v%2FrwVCfARn85%2F%2B%2F%2Fz8CzEeS%2BnMQJPL0%2Ba37796DJfsZ4EYBwar9DBkMCQwFR86DJeXBUo%2F6QToYHCAKtaO%2Bf%2F%2F%2F%2F3kmmHNm%2Fv%2F%2FD27CTee4c%2Ff%2F%2F2vT4VKfXiM5CQg2t4M5lckQd%2F3nB0n8vQji5HhCFEpArP73AeGF35dACkEgYPtxmODXnxueg2igbqikh3l%2F1%2FpV%2B7vWyzUwxHatB%2BvcBLNfgMEA6AEDBg4g26Br%2FffvqeUMWIEBULcEdikGkG4AzGOfgUQC7TUAAAAASUVORK5CYII%3D') no-repeat 0 0;
+  height: 14px;
+  opacity: 1;
+  position: absolute;
+  right: 115px;
+  top: 13px;
+  width: 15px;
+}
+
+/* Thumbnails section */
 .thumbnails{
   width: 1440px;
   display: flex;
