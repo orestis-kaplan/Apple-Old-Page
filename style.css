@@ -12,9 +12,71 @@ html,body{
   position: relative;
   background-size: 1500px 1315px;
   background-repeat: no-repeat;
-  }
+}
 .header-container a{
   width: fit-content;
+}
+
+/* Navigation bar section */
+.nav-bar{
+  background: linear-gradient( #838383 50%,#606060 50%,#838383 79%),url(something.png),no-repeat 50% 50%;
+  border-radius: 5px;
+  display: flex;
+  height: 36px;
+  margin: 0 auto;
+  width: 50%;
+  justify-content: space-between;
+  /* padding: 11px 15px 0px 15px; */
+  position: relative;
+  top: 20px;
+}
+
+.nav-bar a{
+  border-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAABCAQAAABTNcdGAAAAEUlEQVQIHWP4r8bA8F%2BKwQEADZUCf37PGokAAAAASUVORK5CYII%3D) 0 2 0 1;
+  -webkit-border-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAABCAQAAABTNcdGAAAAEUlEQVQIHWP4r8bA8F%2BKwQEADZUCf37PGokAAAAASUVORK5CYII%3D) 0 2 0 1;
+  border-right: 2px solid;
+  position: relative;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+}
+
+.nav-bar a span{
+  display: block;
+  height: 30px;
+  margin: 3px auto;
+  width: 100%;
+}
+
+#apple-icon{
+  background: url("img/globalnav_text.svg") no-repeat 50% 0;
+}
+#store-text{
+  background: url("img/globalnav_text.svg") no-repeat 50% 14%;
+}
+
+#mac-text{
+  background: url("img/globalnav_text.svg") no-repeat 50% 28%;
+}
+
+#ipod-text{
+  background: url("img/globalnav_text.svg") no-repeat 50% 43%;
+}
+
+#iphone-text{
+  background: url("img/globalnav_text.svg") no-repeat 50% 56%;
+}
+
+#ipad-text{
+  background: url("img/globalnav_text.svg") no-repeat 50% 71%;
+}
+
+#itunes-text{
+  background: url("img/globalnav_text.svg") no-repeat 50% 85%;
+}
+
+#support-text{
+  background: url("img/globalnav_text.svg") no-repeat 50% 100%;
 }
 .thumbnails{
   width: 1440px;
