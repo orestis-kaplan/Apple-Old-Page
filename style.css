@@ -1,11 +1,21 @@
 html,body{
   margin: 0;
+  overflow-x: hidden;
+  min-width: 1024px;
 }
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+  header{
+    width: 1024px;
+  }
+}
+
 .header-container{
-  background: url(https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero_2x.jpg) 41% 158%;
-  width: 1440px;
+  background: url(https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero_2x.jpg) 41% 100%;
+  max-width: 1440px;
   margin: 0 auto;
-  min-height: 830px;
+  min-height: 540px;
   position: relative;
   background-size: 1500px 1315px;
   background-repeat: no-repeat;
@@ -16,7 +26,7 @@ html,body{
 
 /* Navigation bar section */
 .nav-bar{
-  background: linear-gradient( #838383 50%,#606060 50%,#838383 100%),url(something.png),no-repeat 50% 50%;
+  background: linear-gradient( #838383 50%,#606060 50%,#838383 100%);
   border-radius: 5px;
   display: flex;
   height: 36px;
@@ -103,7 +113,26 @@ html,body{
   top: 13px;
   width: 15px;
 }
+.first-main-text{
+  margin: 123px 0px -14px 0px;
+  text-align: center;
+}
 
+.second-main-text{
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.third-main-text{
+  text-align: center;
+  overflow: hidden;
+  height: 31px;
+  position: relative;
+}
+.third-main-text a:hover{
+  margin-top: 32px;
+  text-decoration: underline;
+}
 /* Thumbnails section */
 .thumbnails{
   width: 1440px;
