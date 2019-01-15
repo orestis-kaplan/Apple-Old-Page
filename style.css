@@ -139,32 +139,51 @@ and (max-device-width : 480px) {
   width: 1440px;
   display: flex;
   margin: 3px auto 0 auto;
+  overflow: hidden;
 }
 footer{
   font-size: 12px;
   width: 980px;
   margin: 0 auto;
+  color: #6e6e6e;
+}
+footer a{
+  text-decoration: none;
+  color: #08c;
+}
+footer a:hover{
+  text-decoration: underline;
+  color: #08c;
 }
 
 .contact p{
   float: left;
+  margin: 0;
+  padding-top: 1.5em;
 }
 
 .contact ul{
   float: right;
   display: flex;
   list-style: none;
+  margin: 0;
   padding: 0;
+  padding-top: 1.5em;
 }
 
 .contact ul li{
-  padding-left: 10px;
+  padding-left: 5px;
+  border-right: 1px solid #ccc;
+  padding-right: 5px;
 }
-
-.contact ul li a{
-  text-decoration: none;
-}
-
 .legal{
   clear: right;
+  display: inline-block;
+}
+.footer-links{
+  display: inline-block;
+  padding: 0;
+}
+.footer-links li {
+  display: inline;
 }
