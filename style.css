@@ -1,0 +1,191 @@
+html,body{
+  margin: 0;
+  overflow-x: hidden;
+  min-width: 1024px;
+}
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+  header{
+    width: 1024px;
+    height: 100%;
+  }
+}
+
+.header-container{
+  background: url(https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero_2x.jpg) 41% 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  min-height: 659px;
+  position: relative;
+  background-size: 1500px 1315px;
+  background-repeat: no-repeat;
+}
+.header-container a{
+  width: fit-content;
+}
+
+/* Navigation bar section */
+.nav-bar{
+  background: linear-gradient( #838383 50%,#606060 50%,#838383 100%);
+  border-radius: 5px;
+  display: flex;
+  height: 36px;
+  margin: 0 auto;
+  width: 980px;
+  justify-content: space-between;
+  position: relative;
+  top: 20px;
+  box-shadow: 0px 1px 3px #606060;
+}
+
+.nav-bar a{
+  border-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAABCAQAAABTNcdGAAAAEUlEQVQIHWP4r8bA8F%2BKwQEADZUCf37PGokAAAAASUVORK5CYII%3D) 0 2 0 1;
+  -webkit-border-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAABCAQAAABTNcdGAAAAEUlEQVQIHWP4r8bA8F%2BKwQEADZUCf37PGokAAAAASUVORK5CYII%3D) 0 2 0 1;
+  border-right: 2px solid;
+  position: relative;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+}
+
+.nav-bar a span{
+  display: block;
+  height: 30px;
+  margin: 3px auto;
+  width: 100%;
+}
+
+.nav-bar a:hover{
+  background: url(img/hover_first.png) repeat-x 0 0,url(img/hover_second.png) repeat-y 100% 0,url(img/hover_third.png) repeat-y 0 0 ,rgba(0, 0, 0, .4);
+}
+#apple-icon{
+  background: url("img/globalnav_text.svg") no-repeat 50% 0;
+}
+#store-text{
+  background: url("img/globalnav_text.svg") no-repeat 50% 14%;
+}
+
+#mac-text{
+  background: url("img/globalnav_text.svg") no-repeat 50% 28%;
+}
+
+#ipod-text{
+  background: url("img/globalnav_text.svg") no-repeat 50% 43%;
+}
+
+#iphone-text{
+  background: url("img/globalnav_text.svg") no-repeat 50% 56%;
+}
+
+#ipad-text{
+  background: url("img/globalnav_text.svg") no-repeat 50% 71%;
+}
+
+#itunes-text{
+  background: url("img/globalnav_text.svg") no-repeat 50% 85%;
+}
+
+#support-text{
+  background: url("img/globalnav_text.svg") no-repeat 50% 100%;
+}
+.search-box{
+  padding: 1px 6px;
+}
+.search-box input{
+  background-color: transparent;
+  box-shadow: #838383 0 1px 0, #606060 0 -1px 0;
+  border: 1px;
+  color: white;
+  width: 106px;
+  margin-top: 7px;
+  border-radius: 12px;
+  height: 19px;
+  padding-left: 22px;
+  outline: none;
+}
+
+.search-icon{
+  background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAOCAQAAABedl5ZAAAAzklEQVQYlWNgAIP%2F9v%2FrwVCfARn85%2F%2B%2F%2Fz8CzEeS%2BnMQJPL0%2Ba37796DJfsZ4EYBwar9DBkMCQwFR86DJeXBUo%2F6QToYHCAKtaO%2Bf%2F%2F%2F%2F3kmmHNm%2Fv%2F%2FD27CTee4c%2Ff%2F%2F2vT4VKfXiM5CQg2t4M5lckQd%2F3nB0n8vQji5HhCFEpArP73AeGF35dACkEgYPtxmODXnxueg2igbqikh3l%2F1%2FpV%2B7vWyzUwxHatB%2BvcBLNfgMEA6AEDBg4g26Br%2FffvqeUMWIEBULcEdikGkG4AzGOfgUQC7TUAAAAASUVORK5CYII%3D') no-repeat 0 0;
+  height: 14px;
+  opacity: 1;
+  position: absolute;
+  right: 115px;
+  top: 13px;
+  width: 15px;
+}
+.first-main-text{
+  margin: 182px 0px -14px 0px;
+  text-align: center;
+}
+
+.second-main-text{
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.third-main-text{
+  text-align: center;
+  overflow: hidden;
+  height: 31px;
+  position: relative;
+}
+.third-main-text a:hover{
+  margin-top: 32px;
+  text-decoration: underline;
+}
+/* Thumbnails section */
+
+.thumbnails{
+  width: 1440px;
+  display: flex;
+  margin: 3px auto 0 auto;
+  overflow: hidden;
+}
+footer{
+  font-size: 10px;
+  width: 980px;
+  margin: 0 auto;
+  color: #6e6e6e;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+}
+footer a{
+  text-decoration: none;
+  color: #08c;
+}
+footer a:hover{
+  text-decoration: underline;
+  color: #08c;
+}
+
+.contact p{
+  float: left;
+  margin: 0;
+  padding-top: 1.5em;
+}
+
+.contact ul{
+  float: right;
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  padding-top: 1.5em;
+}
+
+.contact ul li{
+  padding-left: 5px;
+  border-right: 1px solid #ccc;
+  padding-right: 5px;
+}
+.legal{
+  clear: right;
+  display: inline-block;
+}
+.footer-links{
+  display: inline-block;
+  padding: 0;
+}
+.footer-links li {
+  display: inline;
+}
