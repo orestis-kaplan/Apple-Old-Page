@@ -1,6 +1,6 @@
 # Apple-Old-Page
 
-* The concept of this project is to make good use of 'background' property in lots of sections
+* The concept of this project is to make good use of `background` property in lots of sections
 
 ## Contributors
 
